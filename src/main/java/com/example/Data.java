@@ -48,4 +48,12 @@ public class Data {
     public static HashMap<Integer,String> getCaptureData() {
         return captureDataHashMap;
     }
+
+    public static String getSummaryData(Integer key) {
+        return summaryDataHashMap.get(key);
+    }
+
+    public static HashMap<Integer,String> getSummaryData() {
+        return summaryDataHashMap;
+    }
 }
