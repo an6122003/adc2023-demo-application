@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.StageController">
+   <children>
+      <Button layoutX="167.0" layoutY="134.0" mnemonicParsing="false" onAction="#switchToCaptureInfoScene" prefHeight="59.0" prefWidth="266.0" text="ACTIVE MEMO">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="167.0" layoutY="215.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="266.0" text="ACTIVE MOCKUP">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="167.0" layoutY="296.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="266.0" text="&quot;SOS&quot;" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="100.0" fitWidth="137.0" layoutX="250.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

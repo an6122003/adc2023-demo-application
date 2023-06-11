@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.StageController">
+   <children>
+      <Button layoutX="167.0" layoutY="276.0" mnemonicParsing="false" onAction="#switchToDistilInfoScene" prefHeight="59.0" prefWidth="266.0" text="I GOT IT!" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="100.0" fitWidth="137.0" layoutX="250.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="173.0" layoutY="136.0" text="CODE METHOD">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="167.0" layoutY="176.0" prefHeight="100.0" prefWidth="266.0" text="Organise - Once you have captured the key elements, organize them in a structured manner. Create an outline or flowchart that represents the structure of the script." wrapText="true" />
+   </children>
+</AnchorPane>
