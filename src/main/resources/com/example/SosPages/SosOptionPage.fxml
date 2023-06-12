@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" pannable="true" prefHeight="493.0" prefWidth="602.0" vvalue="0.49" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.SosOptionPageController">
+   <content>
+      <AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="137.0" layoutX="250.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="250.0" layoutY="155.0" text="&quot;SOS&quot;" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="200.0" prefHeight="38.0" prefWidth="554.0" text="Don't worry, your AI Companion is here. Pick what you prefer" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="homeButton" layoutX="169.0" layoutY="409.0" mnemonicParsing="false" onAction="#backToHome" prefHeight="59.0" prefWidth="266.0" text="BACK TO HOME" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="chatBuddyButton" layoutX="100.0" layoutY="250.0" mnemonicParsing="false" onAction="#switchToChatBuddyScene" prefHeight="59.0" prefWidth="189.0" text="Chat Buddy" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="musicUpButton" layoutX="328.0" layoutY="249.0" mnemonicParsing="false" onAction="#switchToMusicUpScene" prefHeight="59.0" prefWidth="157.0" text="Music Up" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Button>
+            <Button fx:id="beArtistButton" layoutX="229.0" layoutY="331.0" mnemonicParsing="false" onAction="#switchToBeArtistScene" prefHeight="59.0" prefWidth="146.0" text="Be Artist" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
